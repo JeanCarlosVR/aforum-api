@@ -1,0 +1,54 @@
+{
+  "name": "forum-api",
+  "version": "1.0.0",
+  "description": "A Forum with awesome features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node bundle/index",
+    "start": "node bundle/index",
+    "build": "tsc && node bundle/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanCarlosVR/forum.git"
+  },
+  "keywords": [
+    "*",
+    "forum",
+    "react",
+    "typescript",
+    "node",
+    "react",
+    "express",
+    "cors",
+    "helmet",
+    "security",
+    "authentication",
+    "oauth",
+    "auth"
+  ],
+  "author": "Jean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeanCarlosVR/forum/issues"
+  },
+  "homepage": "https://github.com/JeanCarlosVR/forum#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "apollo-server-express": "^2.19.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "fancy-log": "^1.3.3",
+    "graphql": "^15.5.0",
+    "graphql-tools": "^7.0.2",
+    "helmet": "^4.4.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.25"
+  }
+}
