@@ -12,5 +12,7 @@ AForum API based on GraphQL and Apollo Client.
 # Env
 
 ```
-PORT=3000
+MONGO_ATLAS_URI=mongodb+srv://...
+PORT=7000
+PRODUCTION=false
 ```
