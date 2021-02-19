@@ -8,3 +8,9 @@ AForum API based on GraphQL and Apollo Client.
 - Apollo Express Server
 - MongoDB
 - Mongoose
+
+# Env
+
+```
+PORT=3000
+```
